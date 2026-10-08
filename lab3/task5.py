@@ -1,0 +1,6 @@
+code = input()
+print(f'Длина: {len(code)}')
+print(f'Только буквы: {code.isalpha()}')
+print(f'Только цифры: {code.isdigit()}')
+print(f'Буквенно-цифровая: {code.isalnum()}')
+print(f"Содержит дефис: {'-' in code}")

@@ -1,0 +1,7 @@
+no_sort = input()
+parts = no_sort.split(";")
+price = float(parts[4])
+print(f'Поезд: {parts[0]}')
+print(f'Маршрут: {parts[1]} - {parts[2]}')
+print(f'Отправление: {parts[3]}')
+print(f'Цена: {price:.2f} руб')
